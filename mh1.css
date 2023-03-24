@@ -1,0 +1,182 @@
+body {
+    background-color: beige;
+    font-family: 'Lora', serif;
+    margin: 0;
+  }
+
+
+header{
+    color: white;
+    background-image: url(https://www.amsterdam.net/it/wp-content/uploads/sites/20/amsterdam.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+
+
+}
+header h1{
+    width: 500px;
+    font-size: 68px;
+    color:rgb(255, 255, 255);
+    z-index: 1;
+   
+}
+header nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+header a{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgb(228, 178, 121);
+    border-radius: 20%;
+    padding: 2px 5px;
+    margin: 2px 10px;
+}
+ a:hover{
+    color:rgb(128, 199, 234);
+}
+
+#overlay{
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    bottom:0;
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+     color:white;
+     background-color: black;
+     font-family: 'Raleway', sans-serif;
+     text-align: center;
+     justify-content: space-around;
+     height: 100px;
+     font-size: 70%;
+    
+     
+
+}
+footer h1{
+    margin-top: -50px;
+    
+}
+
+footer p{
+    color: rgba(255, 255, 255, .4);
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px 10px;
+    font-size: 20px;
+
+}
+
+section{
+    
+    
+    background-color: beige;
+    
+}
+
+
+    
+
+
+
+#main {
+    display: flex;
+    width: 66.67%;
+    flex-direction: column;
+    text-align:left;
+     margin-left: 40px;
+    
+
+}
+#main img{
+    
+    width: 70%;
+    height: 70%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+
+}
+#main h1{
+    
+    color: orange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+
+}
+
+#main p{
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 20px;
+    font-family: "Trirong", serif;
+    color:black;
+    text-align: left;
+    margin-bottom: 120px;
+    margin-top: 10px;
+    padding-right: 34%;
+    
+
+
+
+
+}
+
+li{
+    font-size: 40px;
+    color: orange;
+    margin-bottom: -50px;
+    margin-right: 20px;
+
+
+}
+
+#avatar{
+    height: 60px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    margin-bottom: 100px;
+    
+}
+#avatar img{
+    border: 2px solid black;
+    width:100px;
+    height:100px;
+    margin-top: -50px;
+    margin-left: -70px;
+    z-index: 1;
+    position: absolute;
+    border-radius: 100%;
+
+}
+#avatar h1{
+    font-family: "Raleway", sans-serif;
+    color:black;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-left: -35px;
+
+}
